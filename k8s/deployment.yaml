@@ -22,5 +22,5 @@ spec:
         - name: MONGODB_URI
           valueFrom:
             secretKeyRef:
-              name: notes-api-secret
+              name: secret
               key: mongodb-uri
